@@ -28,7 +28,8 @@ GET http://localhost:8889/download/[filename]
 DELETE http://localhost:8889/remove/[filename]
 ```
 
-### Filter by Query key-value pairs minduration and maxduration
+### Filter by Query key-value pairs
+accepted values are minduration and maxduration
 ```
 GET http://localhost:8889/filter?
 ```
